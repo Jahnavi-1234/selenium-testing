@@ -28,7 +28,6 @@ class CareerPage:
             print("Typing 'QA Engineer' into the search field...")
             search_field.send_keys("QA Engineer")
             search_field.send_keys(Keys.RETURN)
-            time.sleep(3)
             print("Search for 'QA Engineer' submitted.")
         except Exception as e:
             print(f"Error in searching for QA Engineer: {str(e)}")
